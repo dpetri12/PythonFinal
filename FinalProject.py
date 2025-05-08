@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-filename = "C:/Users/dpetr/Final Project (Python)/AQI.csv"
+filename = "AQI.csv"
 df = pd.read_csv(filename)
 
 #GETS RID OF ROWS WITHOUT COUNTRY OR COORDINATES
